@@ -304,7 +304,7 @@ Widget chatMessageTile(String message, bool sendByMe) {
                           hintText: "Tapez votre message...",
                           hintStyle:
                               TextStyle(color: Colors.white.withOpacity(0.6))),
-                    )),
+                    )),/*
                     GestureDetector(
                       child: Icon(Icons.attach_file,color: Colors.white,),
                       onTap: (){
@@ -314,7 +314,7 @@ Widget chatMessageTile(String message, bool sendByMe) {
                         uploadFile();
                       },
                     ),
-SizedBox(width: 30,),
+SizedBox(width: 30,),*/
                     GestureDetector(
                       onTap: () {
                         addMessage(true);

@@ -7,7 +7,7 @@
 
    <application
         android:name="androidx.multidex.MultiDexApplication"
-        android:label="Secrétariat"
+        android:label="TFE"
         android:icon="@mipmap/launcher_icon"
         android:largeHeap="true"
         android:usesCleartextTraffic="true">
