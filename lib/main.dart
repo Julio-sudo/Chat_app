@@ -4,21 +4,22 @@ import 'package:chat_application_final/services/auth.dart';
 import 'package:chat_application_final/views/home.dart';
 import 'package:chat_application_final/views/signin.dart';
 
-
-
-
-
  void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(MyApp());
+  
+  runApp(
+    MyApp()
+    );
+  
 }
 
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'TFE',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,

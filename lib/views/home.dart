@@ -228,7 +228,7 @@ class _HomeState extends State<Home> {
            child: Expanded(
              child: Row(children:[
                Text('Signez ou éditez un document PDF',style: TextStyle(color: Colors.white),),
-               SizedBox(width: 10,),
+               SizedBox(width: 5,),
                Icon(Icons.edit_sharp, color: Colors.white,)
              ]),
            ),
